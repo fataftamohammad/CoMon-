@@ -1,0 +1,12 @@
+router
+# node  comment
+0   NA       2          0
+1   NA       2          1
+2   NA       3          2
+3   NA       1          2
+
+link
+# srcNode   dstNode     bandwidth   metric  delay
+0           1           1000Gbps       1       100ms
+1           2           1000Gbps       1       100ms
+1           3           1000Gbps       1       100ms

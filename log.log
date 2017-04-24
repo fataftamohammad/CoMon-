@@ -1,0 +1,211 @@
+Lookup /prefix/%00%0CT : Adding to S(1)
+Lookup /prefix/%00%02%BD : Adding to S(2)
+Lookup /prefix/%00%01%1C : Adding to S(3)
+Lookup /prefix/%00f : Adding to S(4)
+Lookup /prefix/%00%5B : Adding to S(5)
+Lookup /prefix/%00%0B%8A : Adding to S(6)
+Lookup /prefix/%00%04 : Adding to S(7)
+Lookup /prefix/%00%02N : Adding to S(8)
+Lookup /prefix/%00%1B%05 : Adding to S(9)
+Lookup /prefix/%00%03%2C : Adding to S(10)
+Lookup /prefix/%00%0C%C8 : Adding to S(11)
+Lookup /prefix/%00%01%E1 : Adding to S(12)
+Lookup /prefix/%00%1A : Adding to S(13)
+Lookup /prefix/%00%0E%16 : Adding to S(14)
+Lookup /prefix/%00%01 : Adding to S(15)
+Lookup /prefix/%00%0EF : Adding to S(16)
+Lookup /prefix/%00%1B%DB : Adding to S(17)
+Lookup /prefix/%00%0D%F7 : Adding to S(18)
+Lookup /prefix/%00%02 : Adding to S(19)
+Lookup /prefix/%00%01M : Adding to S(20)
+Lookup /prefix/%00%14 : Adding to S(21)
+Lookup /prefix/%00E : Adding to S(22)
+Lookup /prefix/%00a : Adding to S(23)
+Lookup /prefix/%00W : Adding to S(24)
+Lookup /prefix/%00%1Eq : Adding to S(25)
+Lookup /prefix/%00%01%0A : Adding to S(26)
+Lookup /prefix/%00M : Adding to S(27)
+Lookup /prefix/%00%2F : Adding to S(28)
+Lookup /prefix/%00%18R : Adding to S(29)
+Lookup /prefix/%00%05%85 : Adding to S(30)
+Lookup /prefix/%00%EA : Adding to S(31)
+Lookup /prefix/%00. : Adding to S(32)
+Lookup /prefix/%00%D1 : Adding to S(33)
+Lookup /prefix/%00%05 : Adding to S(34)
+Lookup /prefix/%00%08h : Adding to S(35)
+Lookup /prefix/%00%028 : Adding to S(36)
+Lookup /prefix/%00%07%F4 : Adding to S(37)
+Lookup /prefix/%00%02b : Adding to S(38)
+Lookup /prefix/%00%01%60 : Adding to S(39)
+Lookup /prefix/%00%0B : Adding to S(40)
+Lookup /prefix/%00F : Adding to S(41)
+Lookup /prefix/%00%11%D8 : Adding to S(42)
+Lookup /prefix/%00%09 : Adding to S(43)
+Lookup /prefix/%00%5D : Adding to S(44)
+Lookup /prefix/%00d : Adding to S(45)
+Lookup /prefix/%00%06%3D : Adding to S(46)
+Lookup /prefix/%00%21 : Adding to S(47)
+Lookup /prefix/%00%04%09 : Adding to S(48)
+Lookup /prefix/%00%28 : Adding to S(49)
+Lookup /prefix/%00%01%A1 : Adding to S(50)
+Lookup /prefix/%00%5C : Adding to S(51)
+Lookup /prefix/%00%02%3F : Adding to S(52)
+Lookup /prefix/%00%E2 : Adding to S(53)
+Lookup /prefix/%00%06 : Adding to S(54)
+Lookup /prefix/%00%0C4 : Adding to S(55)
+Lookup /prefix/%00%03a : Adding to S(56)
+Lookup /prefix/%00%84 : Adding to S(57)
+Lookup /prefix/%00%03%21 : Adding to S(58)
+Lookup /prefix/%00%01y : Adding to S(59)
+Lookup /prefix/%00%03 : Adding to S(60)
+Lookup /prefix/%00%E0 : Adding to S(61)
+Lookup /prefix/%00%01%C3 : Adding to S(62)
+Lookup /prefix/%00%06%17 : Adding to S(63)
+Lookup /prefix/%00%1F%3E : Adding to S(64)
+Lookup /prefix/%00%1B : Adding to S(65)
+Lookup /prefix/%00%0D : Adding to S(66)
+Lookup /prefix/%00%26%3B : Adding to S(67)
+Lookup /prefix/%00%06u : Adding to S(68)
+Lookup /prefix/%00%10+ : Adding to S(69)
+Lookup /prefix/%00%08%15 : Adding to S(70)
+Lookup /prefix/%00%17%C2 : Adding to S(71)
+Lookup /prefix/%00%02%12 : Adding to S(72)
+Lookup /prefix/%00%01%5C : Adding to S(73)
+Lookup /prefix/%00%03%9F : Adding to S(74)
+Lookup /prefix/%00%16%B7 : Adding to S(75)
+Lookup /prefix/%00%80 : Adding to S(76)
+Lookup /prefix/%00%04%A7 : Adding to S(77)
+Lookup /prefix/%00%BE : Adding to S(78)
+Lookup /prefix/%00%04o : Adding to S(79)
+Lookup /prefix/%00%19%16 : Adding to S(80)
+Lookup /prefix/%00%B2 : Adding to S(81)
+Lookup /prefix/%00%0F%CE : Adding to S(82)
+Lookup /prefix/%00%26%AC : Adding to S(83)
+Lookup /prefix/%00%1D%06 : Adding to S(84)
+Lookup /prefix/%00%05%BD : Adding to S(85)
+Lookup /prefix/%00%01%AB : Adding to S(86)
+Lookup /prefix/%00%40 : Adding to S(87)
+Lookup /prefix/%00%0E%92 : Adding to S(88)
+Lookup /prefix/%00%20 : Adding to S(89)
+Lookup /prefix/%00%11%17 : Adding to S(90)
+Lookup /prefix/%00%DA : Adding to S(91)
+Lookup /prefix/%00%03%1F : Adding to S(92)
+Lookup /prefix/%00%C5 : Adding to S(93)
+Lookup /prefix/%00%01 : Adding to S(93)
+Lookup /prefix/%00%07%9B : Adding to S(94)
+Lookup /prefix/%00%25X : Adding to S(95)
+Lookup /prefix/%00%05%18 : Adding to S(96)
+Lookup /prefix/%00%0F%9B : Adding to S(97)
+Lookup /prefix/%00%02%AB : Adding to S(98)
+Lookup /prefix/%00%067 : Adding to S(99)
+Lookup /prefix/%00%02 : Adding to S(99)
+Lookup /prefix/%00N : Adding to S(100)
+LEARNING: analyzed_cos = 9999, snap_size = 10000, Steps 1.000, sd = 0.000, mx_sd = 0.000
+LEARNING: analyzed_cos = 19999, snap_size = 10000, Steps 2.000, sd = 0.000, mx_sd = 0.000
+LEARNING: analyzed_cos = 29999, snap_size = 10000, Steps 3.000, sd = 0.025, mx_sd = 0.000
+LEARNING: analyzed_cos = 39999, snap_size = 10000, Steps 4.000, sd = 0.056, mx_sd = 0.000
+LEARNING: analyzed_cos = 49999, snap_size = 10000, Steps 5.000, sd = 0.054, mx_sd = 0.000
+LEARNING: analyzed_cos = 59999, snap_size = 10000, Steps 6.000, sd = 0.050, mx_sd = 0.000
+LEARNING: analyzed_cos = 69999, snap_size = 10000, Steps 7.000, sd = 0.047, mx_sd = 0.000
+LEARNING: analyzed_cos = 79999, snap_size = 10000, Steps 8.000, sd = 0.044, mx_sd = 0.000
+LEARNING: analyzed_cos = 89999, snap_size = 10000, Steps 9.000, sd = 0.042, mx_sd = 0.000
+LEARNING: analyzed_cos = 99999, snap_size = 10000, Steps 10.000, sd = 0.040, mx_sd = 0.000
+LEARNING: analyzed_cos = 109999, snap_size = 10000, Steps 11.000, sd = 0.038, mx_sd = 0.000
+LEARNING: analyzed_cos = 119999, snap_size = 10000, Steps 12.000, sd = 0.037, mx_sd = 0.000
+LEARNING: analyzed_cos = 129999, snap_size = 10000, Steps 13.000, sd = 0.035, mx_sd = 0.000
+LEARNING: analyzed_cos = 139999, snap_size = 10000, Steps 14.000, sd = 0.034, mx_sd = 0.000
+LEARNING: analyzed_cos = 149999, snap_size = 10000, Steps 15.000, sd = 0.033, mx_sd = 0.000
+LEARNING: analyzed_cos = 159999, snap_size = 10000, Steps 16.000, sd = 0.032, mx_sd = 0.000
+LEARNING: analyzed_cos = 169999, snap_size = 10000, Steps 17.000, sd = 0.031, mx_sd = 0.000
+LEARNING: analyzed_cos = 179999, snap_size = 10000, Steps 18.000, sd = 0.030, mx_sd = 0.000
+LEARNING: analyzed_cos = 189999, snap_size = 10000, Steps 19.000, sd = 0.029, mx_sd = 0.000
+LEARNING: analyzed_cos = 199999, snap_size = 10000, Steps 20.000, sd = 0.028, mx_sd = 0.000
+LEARNING: analyzed_cos = 209999, snap_size = 10000, Steps 21.000, sd = 0.028, mx_sd = 0.000
+ATTACKTEST
+ratio: -0.891147
+ATTACKTEST
+ratio: -0.894610
+ATTACKTEST
+ratio: -0.901370
+ATTACKTEST
+ratio: -0.891884
+ATTACKTEST
+ratio: -0.877464
+ATTACKTEST
+ratio: -0.893880
+ATTACKTEST
+ratio: -0.889340
+ATTACKTEST
+ratio: -0.895339
+ATTACKTEST
+ratio: -0.897716
+ATTACKTEST
+ratio: -0.898266
+ATTACKTEST
+ratio: -0.899349
+ATTACKTEST
+ratio: -0.898813
+ATTACKTEST
+ratio: -0.883864
+ATTACKTEST
+ratio: -0.887132
+ATTACKTEST
+ratio: -0.896453
+ATTACKTEST
+ratio: -0.888405
+ATTACKTEST
+ratio: -0.902461
+ATTACKTEST
+ratio: -0.876335
+ATTACKTEST
+ratio: -0.717188
+ATTACKTEST
+ratio: -0.715957
+ATTACKTEST
+ratio: -0.732509
+ATTACKTEST
+ratio: -0.725330
+ATTACKTEST
+ratio: -0.719835
+ATTACKTEST
+ratio: -0.728606
+ATTACKTEST
+ratio: -0.715890
+ATTACKTEST
+ratio: -0.721622
+ATTACKTEST
+ratio: -0.723480
+ATTACKTEST
+ratio: -0.718275
+ATTACKTEST
+ratio: -0.713359
+ATTACKTEST
+ratio: -0.716859
+ATTACKTEST
+ratio: -0.724601
+ATTACKTEST
+ratio: -0.721834
+ATTACKTEST
+ratio: -0.727356
+ATTACKTEST
+ratio: -0.730275
+ATTACKTEST
+ratio: -0.849271
+ATTACKTEST
+ratio: -0.901361
+ATTACKTEST
+ratio: -0.907745
+ATTACKTEST
+ratio: -0.901917
+ATTACKTEST
+ratio: -0.898261
+ATTACKTEST
+ratio: -0.899176
+ATTACKTEST
+ratio: -0.890966
+ATTACKTEST
+ratio: -0.901176
+ATTACKTEST
+ratio: -0.896075
+ATTACKTEST
+ratio: -0.894072

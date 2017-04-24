@@ -1,0 +1,1293 @@
+router
+# node  comment     yPos    xPos
+245
+272
+260
+74
+77
+100
+123
+298
+222
+117
+118
+246
+96
+25
+17
+164
+201
+91
+283
+210
+122
+113
+233
+139
+209
+278
+33
+4
+244
+64
+189
+206
+276
+11
+280
+168
+177
+125
+215
+135
+79
+182
+19
+212
+191
+256
+187
+232
+274
+252
+303
+163
+9
+56
+27
+192
+289
+165
+310
+6
+132
+171
+172
+121
+247
+194
+84
+259
+46
+30
+176
+29
+258
+296
+88
+38
+179
+110
+181
+241
+211
+95
+5
+48
+290
+186
+116
+200
+237
+207
+254
+196
+66
+59
+226
+195
+199
+265
+271
+7
+213
+14
+98
+73
+261
+69
+138
+248
+32
+288
+153
+190
+105
+111
+127
+124
+156
+49
+26
+185
+286
+152
+129
+131
+242
+188
+180
+151
+178
+47
+63
+251
+282
+93
+20
+120
+82
+85
+270
+90
+75
+155
+71
+99
+103
+143
+136
+238
+219
+89
+312
+144
+234
+263
+184
+97
+275
+52
+51
+67
+119
+149
+255
+221
+293
+304
+128
+257
+224
+50
+0
+284
+2
+302
+86
+314
+61
+34
+108
+87
+21
+217
+18
+253
+311
+240
+130
+65
+291
+264
+169
+205
+203
+306
+161
+45
+94
+279
+60
+15
+35
+54
+220
+159
+197
+266
+76
+243
+148
+285
+307
+250
+193
+202
+228
+162
+41
+273
+173
+36
+157
+208
+133
+154
+158
+239
+134
+13
+44
+145
+198
+300
+137
+299
+80
+166
+305
+16
+170
+102
+281
+204
+58
+39
+10
+92
+294
+142
+43
+147
+22
+112
+126
+295
+109
+24
+249
+268
+301
+267
+70
+262
+42
+3
+160
+214
+83
+62
+309
+101
+81
+287
+72
+115
+106
+55
+114
+78
+174
+146
+269
+8
+104
+225
+141
+231
+31
+68
+229
+150
+236
+218
+235
+216
+292
+277
+57
+12
+308
+297
+107
+37
+140
+40
+223
+183
+28
+313
+230
+1
+167
+53
+175
+23
+227
+
+link
+# srcNode	dstNode		bandwidth   metric  delay   queue
+121		96		1000Gbps		1		1ms
+108		163		1000Gbps		1		13ms
+157		191		1000Gbps		1		5ms
+63		266		1000Gbps		1		8ms
+217		226		1000Gbps		1		1ms
+217		233		1000Gbps		1		1ms
+96		111		1000Gbps		1		1ms
+4		8		1000Gbps		1		1ms
+183		187		1000Gbps		1		1ms
+5		20		1000Gbps		1		1ms
+121		93		1000Gbps		1		1ms
+217		303		1000Gbps		1		2ms
+266		47		1000Gbps		1		2ms
+235		217		1000Gbps		1		4ms
+294		261		1000Gbps		1		2ms
+42		33		1000Gbps		1		1ms
+278		274		1000Gbps		1		1ms
+145		135		1000Gbps		1		1ms
+163		61		1000Gbps		1		7ms
+3		7		1000Gbps		1		1ms
+311		308		1000Gbps		1		1ms
+57		52		1000Gbps		1		1ms
+164		171		1000Gbps		1		1ms
+135		140		1000Gbps		1		1ms
+275		292		1000Gbps		1		62ms
+65		88		1000Gbps		1		1ms
+25		9		1000Gbps		1		1ms
+108		93		1000Gbps		1		1ms
+137		140		1000Gbps		1		1ms
+65		66		1000Gbps		1		1ms
+2		24		1000Gbps		1		1ms
+241		240		1000Gbps		1		1ms
+251		256		1000Gbps		1		1ms
+152		127		1000Gbps		1		4ms
+97		123		1000Gbps		1		1ms
+64		79		1000Gbps		1		1ms
+62		73		1000Gbps		1		1ms
+46		35		1000Gbps		1		1ms
+163		95		1000Gbps		1		13ms
+179		168		1000Gbps		1		1ms
+285		273		1000Gbps		1		1ms
+205		197		1000Gbps		1		1ms
+6		93		1000Gbps		1		11ms
+5		98		1000Gbps		1		11ms
+64		68		1000Gbps		1		1ms
+310		307		1000Gbps		1		1ms
+63		66		1000Gbps		1		1ms
+96		102		1000Gbps		1		1ms
+176		169		1000Gbps		1		1ms
+258		253		1000Gbps		1		2ms
+115		163		1000Gbps		1		13ms
+198		204		1000Gbps		1		1ms
+96		94		1000Gbps		1		1ms
+97		136		1000Gbps		1		5ms
+93		95		1000Gbps		1		1ms
+121		97		1000Gbps		1		1ms
+96		69		1000Gbps		1		8ms
+202		163		1000Gbps		1		2ms
+6		15		1000Gbps		1		1ms
+68		61		1000Gbps		1		1ms
+2		97		1000Gbps		1		11ms
+241		249		1000Gbps		1		1ms
+97		95		1000Gbps		1		1ms
+241		247		1000Gbps		1		1ms
+97		92		1000Gbps		1		1ms
+63		78		1000Gbps		1		1ms
+134		261		1000Gbps		1		14ms
+221		223		1000Gbps		1		1ms
+219		304		1000Gbps		1		2ms
+4		14		1000Gbps		1		1ms
+10		4		1000Gbps		1		1ms
+6		192		1000Gbps		1		22ms
+81		45		1000Gbps		1		6ms
+273		192		1000Gbps		1		21ms
+280		275		1000Gbps		1		1ms
+282		273		1000Gbps		1		1ms
+36		43		1000Gbps		1		1ms
+62		65		1000Gbps		1		1ms
+276		275		1000Gbps		1		1ms
+232		218		1000Gbps		1		1ms
+112		95		1000Gbps		1		1ms
+152		150		1000Gbps		1		1ms
+122		96		1000Gbps		1		1ms
+6		25		1000Gbps		1		1ms
+232		221		1000Gbps		1		1ms
+114		95		1000Gbps		1		1ms
+6		3		1000Gbps		1		1ms
+198		196		1000Gbps		1		1ms
+219		234		1000Gbps		1		1ms
+219		227		1000Gbps		1		1ms
+4		22		1000Gbps		1		1ms
+170		171		1000Gbps		1		1ms
+294		296		1000Gbps		1		1ms
+163		100		1000Gbps		1		13ms
+62		89		1000Gbps		1		1ms
+93		163		1000Gbps		1		13ms
+95		105		1000Gbps		1		1ms
+93		111		1000Gbps		1		1ms
+239		95		1000Gbps		1		2ms
+52		51		1000Gbps		1		1ms
+62		78		1000Gbps		1		1ms
+93		99		1000Gbps		1		1ms
+63		89		1000Gbps		1		1ms
+36		184		1000Gbps		1		5ms
+111		95		1000Gbps		1		1ms
+2		25		1000Gbps		1		1ms
+62		81		1000Gbps		1		1ms
+223		29		1000Gbps		1		2ms
+4		15		1000Gbps		1		1ms
+217		228		1000Gbps		1		1ms
+36		32		1000Gbps		1		1ms
+289		273		1000Gbps		1		1ms
+56		52		1000Gbps		1		1ms
+97		113		1000Gbps		1		1ms
+215		275		1000Gbps		1		2ms
+36		30		1000Gbps		1		1ms
+311		304		1000Gbps		1		1ms
+65		52		1000Gbps		1		9ms
+197		206		1000Gbps		1		1ms
+136		142		1000Gbps		1		1ms
+218		227		1000Gbps		1		1ms
+53		54		1000Gbps		1		1ms
+53		96		1000Gbps		1		7ms
+65		61		1000Gbps		1		1ms
+50		0		1000Gbps		1		2ms
+34		41		1000Gbps		1		1ms
+201		202		1000Gbps		1		1ms
+282		276		1000Gbps		1		1ms
+197		168		1000Gbps		1		2ms
+149		136		1000Gbps		1		2ms
+5		253		1000Gbps		1		4ms
+23		3		1000Gbps		1		1ms
+6		7		1000Gbps		1		1ms
+75		96		1000Gbps		1		8ms
+36		44		1000Gbps		1		1ms
+34		31		1000Gbps		1		1ms
+286		273		1000Gbps		1		1ms
+65		96		1000Gbps		1		8ms
+276		277		1000Gbps		1		1ms
+306		304		1000Gbps		1		1ms
+276		284		1000Gbps		1		1ms
+64		75		1000Gbps		1		1ms
+69		61		1000Gbps		1		1ms
+240		201		1000Gbps		1		7ms
+217		223		1000Gbps		1		1ms
+63		64		1000Gbps		1		1ms
+200		266		1000Gbps		1		3ms
+250		254		1000Gbps		1		1ms
+163		111		1000Gbps		1		13ms
+99		163		1000Gbps		1		13ms
+287		275		1000Gbps		1		1ms
+110		75		1000Gbps		1		8ms
+186		189		1000Gbps		1		1ms
+261		262		1000Gbps		1		1ms
+143		141		1000Gbps		1		1ms
+36		38		1000Gbps		1		1ms
+167		171		1000Gbps		1		1ms
+149		137		1000Gbps		1		2ms
+36		34		1000Gbps		1		1ms
+287		274		1000Gbps		1		1ms
+219		230		1000Gbps		1		1ms
+137		143		1000Gbps		1		1ms
+65		78		1000Gbps		1		1ms
+72		61		1000Gbps		1		1ms
+97		112		1000Gbps		1		1ms
+3		12		1000Gbps		1		1ms
+217		314		1000Gbps		1		2ms
+49		150		1000Gbps		1		3ms
+172		167		1000Gbps		1		1ms
+96		104		1000Gbps		1		1ms
+25		7		1000Gbps		1		1ms
+36		41		1000Gbps		1		1ms
+6		13		1000Gbps		1		1ms
+301		302		1000Gbps		1		1ms
+310		217		1000Gbps		1		2ms
+82		64		1000Gbps		1		1ms
+63		68		1000Gbps		1		1ms
+219		225		1000Gbps		1		1ms
+97		119		1000Gbps		1		1ms
+290		275		1000Gbps		1		1ms
+65		89		1000Gbps		1		1ms
+161		164		1000Gbps		1		1ms
+136		134		1000Gbps		1		1ms
+196		135		1000Gbps		1		10ms
+36		183		1000Gbps		1		5ms
+303		307		1000Gbps		1		1ms
+65		68		1000Gbps		1		1ms
+123		163		1000Gbps		1		13ms
+5		192		1000Gbps		1		22ms
+295		251		1000Gbps		1		7ms
+96		163		1000Gbps		1		13ms
+90		270		1000Gbps		1		4ms
+272		275		1000Gbps		1		1ms
+97		102		1000Gbps		1		1ms
+114		33		1000Gbps		1		7ms
+278		275		1000Gbps		1		1ms
+134		135		1000Gbps		1		1ms
+167		165		1000Gbps		1		1ms
+134		138		1000Gbps		1		1ms
+84		66		1000Gbps		1		1ms
+218		230		1000Gbps		1		1ms
+217		166		1000Gbps		1		3ms
+17		2		1000Gbps		1		1ms
+240		200		1000Gbps		1		7ms
+222		223		1000Gbps		1		1ms
+293		291		1000Gbps		1		1ms
+107		105		1000Gbps		1		1ms
+306		310		1000Gbps		1		1ms
+219		223		1000Gbps		1		1ms
+66		68		1000Gbps		1		1ms
+273		275		1000Gbps		1		1ms
+62		61		1000Gbps		1		1ms
+287		276		1000Gbps		1		1ms
+5		7		1000Gbps		1		1ms
+98		4		1000Gbps		1		11ms
+97		122		1000Gbps		1		1ms
+217		237		1000Gbps		1		2ms
+121		95		1000Gbps		1		1ms
+217		221		1000Gbps		1		1ms
+117		96		1000Gbps		1		1ms
+97		99		1000Gbps		1		1ms
+312		303		1000Gbps		1		1ms
+128		129		1000Gbps		1		1ms
+61		79		1000Gbps		1		1ms
+96		135		1000Gbps		1		5ms
+186		183		1000Gbps		1		1ms
+53		124		1000Gbps		1		2ms
+10		6		1000Gbps		1		1ms
+180		168		1000Gbps		1		1ms
+3		22		1000Gbps		1		1ms
+190		129		1000Gbps		1		4ms
+162		170		1000Gbps		1		1ms
+110		96		1000Gbps		1		1ms
+173		165		1000Gbps		1		1ms
+163		120		1000Gbps		1		13ms
+184		185		1000Gbps		1		1ms
+2		7		1000Gbps		1		1ms
+4		13		1000Gbps		1		1ms
+53		57		1000Gbps		1		1ms
+97		93		1000Gbps		1		1ms
+65		87		1000Gbps		1		1ms
+2		163		1000Gbps		1		21ms
+188		184		1000Gbps		1		1ms
+136		163		1000Gbps		1		10ms
+45		35		1000Gbps		1		1ms
+34		45		1000Gbps		1		1ms
+295		294		1000Gbps		1		1ms
+97		96		1000Gbps		1		1ms
+162		164		1000Gbps		1		1ms
+278		276		1000Gbps		1		1ms
+184		189		1000Gbps		1		1ms
+166		165		1000Gbps		1		1ms
+279		275		1000Gbps		1		1ms
+260		261		1000Gbps		1		1ms
+19		4		1000Gbps		1		1ms
+288		274		1000Gbps		1		1ms
+231		218		1000Gbps		1		1ms
+2		8		1000Gbps		1		1ms
+198		275		1000Gbps		1		21ms
+219		218		1000Gbps		1		1ms
+66		61		1000Gbps		1		1ms
+234		218		1000Gbps		1		1ms
+185		187		1000Gbps		1		1ms
+5		109		1000Gbps		1		11ms
+198		212		1000Gbps		1		1ms
+255		251		1000Gbps		1		1ms
+196		201		1000Gbps		1		1ms
+92		95		1000Gbps		1		1ms
+93		101		1000Gbps		1		1ms
+62		165		1000Gbps		1		7ms
+3		14		1000Gbps		1		1ms
+64		52		1000Gbps		1		9ms
+66		268		1000Gbps		1		8ms
+217		224		1000Gbps		1		1ms
+267		197		1000Gbps		1		3ms
+36		39		1000Gbps		1		1ms
+302		265		1000Gbps		1		28ms
+236		35		1000Gbps		1		4ms
+118		93		1000Gbps		1		1ms
+106		96		1000Gbps		1		1ms
+309		312		1000Gbps		1		1ms
+92		96		1000Gbps		1		1ms
+25		11		1000Gbps		1		1ms
+97		61		1000Gbps		1		8ms
+135		146		1000Gbps		1		2ms
+266		267		1000Gbps		1		1ms
+107		163		1000Gbps		1		13ms
+309		307		1000Gbps		1		1ms
+153		155		1000Gbps		1		30ms
+122		163		1000Gbps		1		13ms
+302		273		1000Gbps		1		44ms
+306		303		1000Gbps		1		1ms
+169		170		1000Gbps		1		1ms
+174		165		1000Gbps		1		1ms
+93		4		1000Gbps		1		11ms
+233		218		1000Gbps		1		1ms
+90		91		1000Gbps		1		1ms
+177		167		1000Gbps		1		1ms
+3		11		1000Gbps		1		1ms
+172		166		1000Gbps		1		1ms
+88		61		1000Gbps		1		1ms
+293		292		1000Gbps		1		1ms
+55		52		1000Gbps		1		1ms
+219		314		1000Gbps		1		2ms
+35		184		1000Gbps		1		5ms
+93		100		1000Gbps		1		1ms
+5		15		1000Gbps		1		1ms
+272		274		1000Gbps		1		1ms
+44		35		1000Gbps		1		1ms
+197		209		1000Gbps		1		1ms
+136		143		1000Gbps		1		1ms
+137		141		1000Gbps		1		1ms
+83		64		1000Gbps		1		1ms
+259		263		1000Gbps		1		1ms
+26		3		1000Gbps		1		1ms
+97		100		1000Gbps		1		1ms
+95		120		1000Gbps		1		1ms
+137		134		1000Gbps		1		1ms
+266		171		1000Gbps		1		2ms
+219		164		1000Gbps		1		3ms
+98		93		1000Gbps		1		1ms
+175		164		1000Gbps		1		1ms
+34		35		1000Gbps		1		1ms
+110		45		1000Gbps		1		7ms
+5		22		1000Gbps		1		1ms
+144		134		1000Gbps		1		1ms
+4		24		1000Gbps		1		1ms
+272		273		1000Gbps		1		1ms
+25		22		1000Gbps		1		1ms
+34		32		1000Gbps		1		1ms
+132		133		1000Gbps		1		1ms
+250		255		1000Gbps		1		1ms
+5		25		1000Gbps		1		1ms
+310		219		1000Gbps		1		2ms
+76		61		1000Gbps		1		1ms
+114		96		1000Gbps		1		1ms
+279		274		1000Gbps		1		1ms
+63		70		1000Gbps		1		1ms
+167		168		1000Gbps		1		1ms
+250		64		1000Gbps		1		16ms
+65		72		1000Gbps		1		1ms
+219		233		1000Gbps		1		1ms
+71		66		1000Gbps		1		1ms
+36		31		1000Gbps		1		1ms
+34		44		1000Gbps		1		1ms
+6		9		1000Gbps		1		1ms
+6		24		1000Gbps		1		1ms
+62		72		1000Gbps		1		1ms
+64		69		1000Gbps		1		1ms
+198		209		1000Gbps		1		1ms
+97		120		1000Gbps		1		1ms
+62		66		1000Gbps		1		1ms
+136		140		1000Gbps		1		1ms
+177		164		1000Gbps		1		1ms
+136		139		1000Gbps		1		1ms
+219		308		1000Gbps		1		2ms
+241		63		1000Gbps		1		3ms
+298		243		1000Gbps		1		16ms
+103		96		1000Gbps		1		1ms
+91		150		1000Gbps		1		6ms
+279		273		1000Gbps		1		1ms
+96		239		1000Gbps		1		2ms
+248		240		1000Gbps		1		1ms
+119		163		1000Gbps		1		13ms
+63		75		1000Gbps		1		1ms
+62		64		1000Gbps		1		1ms
+62		267		1000Gbps		1		8ms
+282		274		1000Gbps		1		1ms
+42		34		1000Gbps		1		1ms
+163		94		1000Gbps		1		13ms
+5		8		1000Gbps		1		1ms
+217		155		1000Gbps		1		3ms
+135		142		1000Gbps		1		1ms
+294		297		1000Gbps		1		1ms
+174		167		1000Gbps		1		1ms
+173		164		1000Gbps		1		1ms
+289		276		1000Gbps		1		1ms
+210		197		1000Gbps		1		1ms
+65		69		1000Gbps		1		1ms
+2		252		1000Gbps		1		4ms
+134		141		1000Gbps		1		1ms
+267		269		1000Gbps		1		1ms
+212		196		1000Gbps		1		1ms
+144		136		1000Gbps		1		1ms
+64		70		1000Gbps		1		1ms
+36		37		1000Gbps		1		1ms
+186		187		1000Gbps		1		1ms
+6		23		1000Gbps		1		1ms
+274		277		1000Gbps		1		1ms
+306		314		1000Gbps		1		1ms
+2		13		1000Gbps		1		1ms
+156		90		1000Gbps		1		33ms
+251		252		1000Gbps		1		1ms
+65		63		1000Gbps		1		1ms
+49		50		1000Gbps		1		1ms
+118		96		1000Gbps		1		1ms
+198		95		1000Gbps		1		12ms
+310		218		1000Gbps		1		2ms
+150		151		1000Gbps		1		1ms
+294		298		1000Gbps		1		1ms
+65		76		1000Gbps		1		1ms
+63		72		1000Gbps		1		1ms
+133		275		1000Gbps		1		57ms
+193		194		1000Gbps		1		1ms
+34		30		1000Gbps		1		1ms
+80		65		1000Gbps		1		1ms
+199		202		1000Gbps		1		1ms
+6		4		1000Gbps		1		1ms
+312		313		1000Gbps		1		1ms
+266		268		1000Gbps		1		1ms
+25		8		1000Gbps		1		1ms
+96		4		1000Gbps		1		11ms
+5		13		1000Gbps		1		1ms
+62		69		1000Gbps		1		1ms
+6		19		1000Gbps		1		1ms
+5		24		1000Gbps		1		1ms
+134		142		1000Gbps		1		1ms
+71		61		1000Gbps		1		1ms
+173		167		1000Gbps		1		1ms
+274		290		1000Gbps		1		1ms
+64		87		1000Gbps		1		1ms
+64		96		1000Gbps		1		8ms
+275		254		1000Gbps		1		2ms
+66		79		1000Gbps		1		1ms
+289		275		1000Gbps		1		1ms
+164		165		1000Gbps		1		1ms
+193		5		1000Gbps		1		22ms
+168		169		1000Gbps		1		1ms
+250		4		1000Gbps		1		4ms
+131		91		1000Gbps		1		3ms
+137		93		1000Gbps		1		5ms
+132		300		1000Gbps		1		16ms
+218		228		1000Gbps		1		1ms
+71		65		1000Gbps		1		1ms
+53		56		1000Gbps		1		1ms
+240		244		1000Gbps		1		1ms
+153		162		1000Gbps		1		29ms
+65		64		1000Gbps		1		1ms
+136		199		1000Gbps		1		10ms
+2		154		1000Gbps		1		2ms
+152		49		1000Gbps		1		3ms
+172		164		1000Gbps		1		1ms
+271		91		1000Gbps		1		4ms
+219		224		1000Gbps		1		1ms
+166		170		1000Gbps		1		1ms
+219		303		1000Gbps		1		2ms
+62		74		1000Gbps		1		1ms
+62		77		1000Gbps		1		1ms
+65		74		1000Gbps		1		1ms
+65		77		1000Gbps		1		1ms
+202		197		1000Gbps		1		1ms
+241		199		1000Gbps		1		7ms
+218		304		1000Gbps		1		2ms
+183		95		1000Gbps		1		9ms
+251		276		1000Gbps		1		2ms
+62		79		1000Gbps		1		1ms
+198		197		1000Gbps		1		1ms
+163		113		1000Gbps		1		13ms
+211		202		1000Gbps		1		1ms
+213		197		1000Gbps		1		1ms
+54		52		1000Gbps		1		1ms
+25		14		1000Gbps		1		1ms
+64		76		1000Gbps		1		1ms
+134		147		1000Gbps		1		2ms
+251		274		1000Gbps		1		2ms
+71		62		1000Gbps		1		1ms
+189		185		1000Gbps		1		1ms
+106		95		1000Gbps		1		1ms
+119		93		1000Gbps		1		1ms
+222		218		1000Gbps		1		1ms
+96		113		1000Gbps		1		1ms
+152		155		1000Gbps		1		30ms
+314		218		1000Gbps		1		2ms
+277		275		1000Gbps		1		1ms
+97		101		1000Gbps		1		1ms
+212		197		1000Gbps		1		1ms
+119		96		1000Gbps		1		1ms
+285		275		1000Gbps		1		1ms
+74		61		1000Gbps		1		1ms
+77		61		1000Gbps		1		1ms
+313		218		1000Gbps		1		2ms
+136		135		1000Gbps		1		1ms
+87		61		1000Gbps		1		1ms
+284		273		1000Gbps		1		1ms
+96		112		1000Gbps		1		1ms
+163		104		1000Gbps		1		13ms
+34		186		1000Gbps		1		5ms
+97		185		1000Gbps		1		9ms
+177		165		1000Gbps		1		1ms
+210		196		1000Gbps		1		1ms
+218		252		1000Gbps		1		21ms
+170		181		1000Gbps		1		1ms
+281		276		1000Gbps		1		1ms
+196		164		1000Gbps		1		2ms
+6		8		1000Gbps		1		1ms
+96		120		1000Gbps		1		1ms
+5		19		1000Gbps		1		1ms
+198		206		1000Gbps		1		1ms
+196		213		1000Gbps		1		1ms
+188		183		1000Gbps		1		1ms
+218		305		1000Gbps		1		2ms
+283		274		1000Gbps		1		1ms
+80		62		1000Gbps		1		1ms
+53		55		1000Gbps		1		1ms
+180		167		1000Gbps		1		1ms
+250		257		1000Gbps		1		1ms
+295		296		1000Gbps		1		1ms
+96		105		1000Gbps		1		1ms
+6		26		1000Gbps		1		1ms
+5		17		1000Gbps		1		1ms
+309		311		1000Gbps		1		1ms
+306		305		1000Gbps		1		1ms
+241		243		1000Gbps		1		1ms
+174		166		1000Gbps		1		1ms
+196		203		1000Gbps		1		1ms
+96		11		1000Gbps		1		11ms
+219		35		1000Gbps		1		6ms
+107		95		1000Gbps		1		1ms
+3		24		1000Gbps		1		1ms
+62		96		1000Gbps		1		8ms
+16		4		1000Gbps		1		1ms
+92		163		1000Gbps		1		13ms
+16		5		1000Gbps		1		1ms
+63		79		1000Gbps		1		1ms
+221		29		1000Gbps		1		2ms
+222		172		1000Gbps		1		3ms
+2		18		1000Gbps		1		1ms
+301		265		1000Gbps		1		28ms
+169		171		1000Gbps		1		1ms
+273		292		1000Gbps		1		62ms
+63		74		1000Gbps		1		1ms
+156		165		1000Gbps		1		2ms
+63		61		1000Gbps		1		1ms
+63		77		1000Gbps		1		1ms
+75		61		1000Gbps		1		1ms
+106		97		1000Gbps		1		1ms
+62		35		1000Gbps		1		6ms
+5		2		1000Gbps		1		1ms
+25		26		1000Gbps		1		1ms
+34		64		1000Gbps		1		6ms
+97		109		1000Gbps		1		1ms
+190		191		1000Gbps		1		1ms
+96		99		1000Gbps		1		1ms
+5		4		1000Gbps		1		1ms
+4		7		1000Gbps		1		1ms
+62		86		1000Gbps		1		1ms
+252		275		1000Gbps		1		2ms
+205		196		1000Gbps		1		1ms
+198		213		1000Gbps		1		1ms
+6		11		1000Gbps		1		1ms
+198		167		1000Gbps		1		2ms
+307		308		1000Gbps		1		1ms
+64		168		1000Gbps		1		7ms
+135		148		1000Gbps		1		2ms
+313		307		1000Gbps		1		1ms
+266		269		1000Gbps		1		1ms
+176		165		1000Gbps		1		1ms
+35		30		1000Gbps		1		1ms
+186		185		1000Gbps		1		1ms
+217		313		1000Gbps		1		2ms
+218		308		1000Gbps		1		2ms
+81		82		1000Gbps		1		1ms
+143		135		1000Gbps		1		1ms
+135		138		1000Gbps		1		1ms
+3		15		1000Gbps		1		1ms
+250		6		1000Gbps		1		4ms
+214		215		1000Gbps		1		1ms
+108		96		1000Gbps		1		1ms
+220		221		1000Gbps		1		1ms
+136		141		1000Gbps		1		1ms
+65		164		1000Gbps		1		7ms
+131		128		1000Gbps		1		4ms
+35		41		1000Gbps		1		1ms
+4		11		1000Gbps		1		1ms
+164		181		1000Gbps		1		1ms
+35		165		1000Gbps		1		8ms
+106		93		1000Gbps		1		1ms
+34		38		1000Gbps		1		1ms
+294		260		1000Gbps		1		2ms
+63		276		1000Gbps		1		16ms
+62		70		1000Gbps		1		1ms
+34		93		1000Gbps		1		7ms
+108		95		1000Gbps		1		1ms
+63		69		1000Gbps		1		1ms
+217		230		1000Gbps		1		1ms
+64		134		1000Gbps		1		5ms
+89		61		1000Gbps		1		1ms
+299		294		1000Gbps		1		1ms
+216		217		1000Gbps		1		1ms
+221		218		1000Gbps		1		1ms
+121		163		1000Gbps		1		13ms
+96		100		1000Gbps		1		1ms
+63		76		1000Gbps		1		1ms
+35		43		1000Gbps		1		1ms
+240		246		1000Gbps		1		1ms
+196		197		1000Gbps		1		1ms
+115		97		1000Gbps		1		1ms
+220		217		1000Gbps		1		1ms
+4		12		1000Gbps		1		1ms
+5		26		1000Gbps		1		1ms
+6		22		1000Gbps		1		1ms
+65		75		1000Gbps		1		1ms
+35		38		1000Gbps		1		1ms
+252		254		1000Gbps		1		1ms
+106		163		1000Gbps		1		13ms
+164		170		1000Gbps		1		1ms
+312		304		1000Gbps		1		1ms
+25		23		1000Gbps		1		1ms
+97		111		1000Gbps		1		1ms
+36		46		1000Gbps		1		1ms
+279		276		1000Gbps		1		1ms
+144		135		1000Gbps		1		1ms
+62		53		1000Gbps		1		9ms
+199		201		1000Gbps		1		1ms
+97		104		1000Gbps		1		1ms
+1		0		1000Gbps		1		1ms
+241		242		1000Gbps		1		1ms
+16		2		1000Gbps		1		1ms
+5		9		1000Gbps		1		1ms
+64		74		1000Gbps		1		1ms
+64		77		1000Gbps		1		1ms
+134		143		1000Gbps		1		1ms
+135		141		1000Gbps		1		1ms
+137		139		1000Gbps		1		1ms
+174		164		1000Gbps		1		1ms
+97		94		1000Gbps		1		1ms
+35		183		1000Gbps		1		5ms
+71		64		1000Gbps		1		1ms
+163		101		1000Gbps		1		13ms
+163		112		1000Gbps		1		13ms
+219		228		1000Gbps		1		1ms
+196		208		1000Gbps		1		1ms
+283		273		1000Gbps		1		1ms
+96		253		1000Gbps		1		13ms
+64		66		1000Gbps		1		1ms
+110		163		1000Gbps		1		13ms
+64		72		1000Gbps		1		1ms
+285		274		1000Gbps		1		1ms
+25		3		1000Gbps		1		1ms
+216		219		1000Gbps		1		1ms
+192		194		1000Gbps		1		1ms
+288		276		1000Gbps		1		1ms
+132		301		1000Gbps		1		16ms
+281		273		1000Gbps		1		1ms
+250		294		1000Gbps		1		7ms
+312		314		1000Gbps		1		1ms
+130		1		1000Gbps		1		3ms
+62		75		1000Gbps		1		1ms
+3		95		1000Gbps		1		11ms
+191		150		1000Gbps		1		3ms
+280		274		1000Gbps		1		1ms
+219		222		1000Gbps		1		1ms
+16		6		1000Gbps		1		1ms
+93		120		1000Gbps		1		1ms
+137		199		1000Gbps		1		10ms
+53		52		1000Gbps		1		1ms
+53		51		1000Gbps		1		1ms
+107		225		1000Gbps		1		11ms
+153		161		1000Gbps		1		29ms
+80		61		1000Gbps		1		1ms
+295		297		1000Gbps		1		1ms
+134		145		1000Gbps		1		1ms
+103		163		1000Gbps		1		13ms
+110		93		1000Gbps		1		1ms
+217		227		1000Gbps		1		1ms
+217		234		1000Gbps		1		1ms
+93		112		1000Gbps		1		1ms
+276		272		1000Gbps		1		1ms
+184		95		1000Gbps		1		9ms
+248		241		1000Gbps		1		1ms
+311		303		1000Gbps		1		1ms
+300		301		1000Gbps		1		1ms
+103		93		1000Gbps		1		1ms
+80		63		1000Gbps		1		1ms
+137		138		1000Gbps		1		1ms
+134		140		1000Gbps		1		1ms
+5		23		1000Gbps		1		1ms
+183		185		1000Gbps		1		1ms
+198		166		1000Gbps		1		2ms
+163		185		1000Gbps		1		9ms
+152		161		1000Gbps		1		29ms
+276		197		1000Gbps		1		21ms
+53		58		1000Gbps		1		1ms
+274		192		1000Gbps		1		21ms
+168		171		1000Gbps		1		1ms
+311		305		1000Gbps		1		1ms
+260		262		1000Gbps		1		1ms
+116		95		1000Gbps		1		1ms
+175		167		1000Gbps		1		1ms
+259		260		1000Gbps		1		1ms
+175		165		1000Gbps		1		1ms
+306		308		1000Gbps		1		1ms
+217		222		1000Gbps		1		1ms
+168		165		1000Gbps		1		1ms
+178		166		1000Gbps		1		1ms
+178		164		1000Gbps		1		1ms
+35		32		1000Gbps		1		1ms
+64		78		1000Gbps		1		1ms
+267		48		1000Gbps		1		2ms
+224		27		1000Gbps		1		2ms
+116		96		1000Gbps		1		1ms
+34		164		1000Gbps		1		8ms
+114		75		1000Gbps		1		8ms
+65		93		1000Gbps		1		8ms
+34		43		1000Gbps		1		1ms
+100		95		1000Gbps		1		1ms
+175		166		1000Gbps		1		1ms
+62		87		1000Gbps		1		1ms
+178		165		1000Gbps		1		1ms
+210		198		1000Gbps		1		1ms
+62		83		1000Gbps		1		1ms
+144		137		1000Gbps		1		1ms
+78		61		1000Gbps		1		1ms
+179		167		1000Gbps		1		1ms
+64		89		1000Gbps		1		1ms
+306		313		1000Gbps		1		1ms
+264		259		1000Gbps		1		1ms
+103		97		1000Gbps		1		1ms
+231		217		1000Gbps		1		1ms
+218		226		1000Gbps		1		1ms
+173		166		1000Gbps		1		1ms
+196		209		1000Gbps		1		1ms
+168		170		1000Gbps		1		1ms
+109		163		1000Gbps		1		13ms
+36		35		1000Gbps		1		1ms
+286		275		1000Gbps		1		1ms
+53		59		1000Gbps		1		1ms
+143		95		1000Gbps		1		5ms
+63		96		1000Gbps		1		8ms
+137		142		1000Gbps		1		1ms
+65		70		1000Gbps		1		1ms
+272		12		1000Gbps		1		4ms
+3		9		1000Gbps		1		1ms
+5		14		1000Gbps		1		1ms
+64		88		1000Gbps		1		1ms
+104		95		1000Gbps		1		1ms
+238		218		1000Gbps		1		2ms
+250		219		1000Gbps		1		21ms
+273		290		1000Gbps		1		1ms
+158		128		1000Gbps		1		4ms
+73		64		1000Gbps		1		1ms
+160		151		1000Gbps		1		29ms
+312		305		1000Gbps		1		1ms
+177		166		1000Gbps		1		1ms
+5		6		1000Gbps		1		1ms
+63		88		1000Gbps		1		1ms
+289		274		1000Gbps		1		1ms
+183		189		1000Gbps		1		1ms
+193		192		1000Gbps		1		1ms
+241		245		1000Gbps		1		1ms
+241		65		1000Gbps		1		3ms
+193		4		1000Gbps		1		22ms
+296		297		1000Gbps		1		1ms
+195		192		1000Gbps		1		1ms
+164		155		1000Gbps		1		2ms
+294		301		1000Gbps		1		40ms
+312		308		1000Gbps		1		1ms
+219		226		1000Gbps		1		1ms
+267		268		1000Gbps		1		1ms
+65		85		1000Gbps		1		1ms
+93		104		1000Gbps		1		1ms
+223		225		1000Gbps		1		1ms
+26		4		1000Gbps		1		1ms
+220		197		1000Gbps		1		2ms
+62		88		1000Gbps		1		1ms
+201		266		1000Gbps		1		3ms
+6		96		1000Gbps		1		11ms
+122		93		1000Gbps		1		1ms
+123		96		1000Gbps		1		1ms
+65		134		1000Gbps		1		5ms
+3		8		1000Gbps		1		1ms
+66		78		1000Gbps		1		1ms
+70		61		1000Gbps		1		1ms
+250		252		1000Gbps		1		1ms
+217		304		1000Gbps		1		2ms
+5		12		1000Gbps		1		1ms
+2		23		1000Gbps		1		1ms
+130		90		1000Gbps		1		3ms
+114		93		1000Gbps		1		1ms
+123		95		1000Gbps		1		1ms
+197		274		1000Gbps		1		21ms
+36		222		1000Gbps		1		6ms
+197		208		1000Gbps		1		1ms
+295		53		1000Gbps		1		9ms
+119		95		1000Gbps		1		1ms
+103		95		1000Gbps		1		1ms
+97		67		1000Gbps		1		8ms
+35		95		1000Gbps		1		7ms
+137		135		1000Gbps		1		1ms
+58		52		1000Gbps		1		1ms
+192		275		1000Gbps		1		21ms
+80		64		1000Gbps		1		1ms
+294		291		1000Gbps		1		64ms
+92		93		1000Gbps		1		1ms
+107		96		1000Gbps		1		1ms
+184		187		1000Gbps		1		1ms
+309		306		1000Gbps		1		1ms
+36		45		1000Gbps		1		1ms
+217		308		1000Gbps		1		2ms
+6		14		1000Gbps		1		1ms
+25		15		1000Gbps		1		1ms
+198		199		1000Gbps		1		1ms
+63		274		1000Gbps		1		16ms
+250		253		1000Gbps		1		1ms
+205		198		1000Gbps		1		1ms
+96		101		1000Gbps		1		1ms
+220		218		1000Gbps		1		1ms
+2		11		1000Gbps		1		1ms
+114		97		1000Gbps		1		1ms
+6		2		1000Gbps		1		1ms
+172		165		1000Gbps		1		1ms
+170		182		1000Gbps		1		1ms
+25		12		1000Gbps		1		1ms
+80		66		1000Gbps		1		1ms
+251		3		1000Gbps		1		4ms
+62		52		1000Gbps		1		9ms
+35		39		1000Gbps		1		1ms
+2		9		1000Gbps		1		1ms
+160		164		1000Gbps		1		1ms
+231		219		1000Gbps		1		1ms
+253		254		1000Gbps		1		1ms
+3		4		1000Gbps		1		1ms
+16		25		1000Gbps		1		1ms
+284		274		1000Gbps		1		1ms
+96		95		1000Gbps		1		1ms
+93		94		1000Gbps		1		1ms
+115		93		1000Gbps		1		1ms
+108		97		1000Gbps		1		1ms
+5		11		1000Gbps		1		1ms
+197		204		1000Gbps		1		1ms
+164		182		1000Gbps		1		1ms
+214		274		1000Gbps		1		2ms
+196		273		1000Gbps		1		21ms
+196		207		1000Gbps		1		1ms
+97		110		1000Gbps		1		1ms
+240		247		1000Gbps		1		1ms
+160		170		1000Gbps		1		1ms
+3		13		1000Gbps		1		1ms
+196		204		1000Gbps		1		1ms
+2		15		1000Gbps		1		1ms
+2		26		1000Gbps		1		1ms
+95		102		1000Gbps		1		1ms
+283		276		1000Gbps		1		1ms
+305		307		1000Gbps		1		1ms
+240		243		1000Gbps		1		1ms
+237		238		1000Gbps		1		1ms
+117		93		1000Gbps		1		1ms
+63		87		1000Gbps		1		1ms
+166		167		1000Gbps		1		1ms
+65		167		1000Gbps		1		7ms
+122		95		1000Gbps		1		1ms
+196		206		1000Gbps		1		1ms
+281		274		1000Gbps		1		1ms
+294		53		1000Gbps		1		9ms
+20		4		1000Gbps		1		1ms
+2		12		1000Gbps		1		1ms
+219		220		1000Gbps		1		1ms
+2		14		1000Gbps		1		1ms
+270		271		1000Gbps		1		1ms
+193		195		1000Gbps		1		1ms
+134		95		1000Gbps		1		5ms
+311		313		1000Gbps		1		1ms
+281		275		1000Gbps		1		1ms
+5		252		1000Gbps		1		4ms
+198		207		1000Gbps		1		1ms
+274		275		1000Gbps		1		1ms
+136		138		1000Gbps		1		1ms
+114		163		1000Gbps		1		13ms
+200		197		1000Gbps		1		1ms
+113		95		1000Gbps		1		1ms
+174		175		1000Gbps		1		1ms
+193		275		1000Gbps		1		21ms
+16		3		1000Gbps		1		1ms
+93		102		1000Gbps		1		1ms
+276		290		1000Gbps		1		1ms
+189		32		1000Gbps		1		5ms
+288		275		1000Gbps		1		1ms
+153		49		1000Gbps		1		3ms
+219		167		1000Gbps		1		3ms
+303		218		1000Gbps		1		2ms
+71		63		1000Gbps		1		1ms
+300		273		1000Gbps		1		44ms
+219		313		1000Gbps		1		2ms
+309		217		1000Gbps		1		2ms
+156		219		1000Gbps		1		3ms
+186		184		1000Gbps		1		1ms
+314		307		1000Gbps		1		1ms
+35		31		1000Gbps		1		1ms
+125		52		1000Gbps		1		2ms
+93		113		1000Gbps		1		1ms
+110		140		1000Gbps		1		5ms
+6		12		1000Gbps		1		1ms
+229		219		1000Gbps		1		1ms
+55		40		1000Gbps		1		11ms
+201		197		1000Gbps		1		1ms
+224		218		1000Gbps		1		1ms
+150		126		1000Gbps		1		4ms
+284		275		1000Gbps		1		1ms
+101		95		1000Gbps		1		1ms
+257		254		1000Gbps		1		1ms
+60		142		1000Gbps		1		6ms
+115		96		1000Gbps		1		1ms
+259		261		1000Gbps		1		1ms
+65		79		1000Gbps		1		1ms
+64		240		1000Gbps		1		3ms
+52		59		1000Gbps		1		1ms
+135		139		1000Gbps		1		1ms
+2		22		1000Gbps		1		1ms
+6		20		1000Gbps		1		1ms
+34		46		1000Gbps		1		1ms
+217		169		1000Gbps		1		3ms
+34		218		1000Gbps		1		6ms
+3		21		1000Gbps		1		1ms
+241		244		1000Gbps		1		1ms
+94		95		1000Gbps		1		1ms
+283		275		1000Gbps		1		1ms
+5		96		1000Gbps		1		11ms
+280		273		1000Gbps		1		1ms
+282		275		1000Gbps		1		1ms
+156		155		1000Gbps		1		1ms
+221		222		1000Gbps		1		1ms
+34		33		1000Gbps		1		1ms
+107		93		1000Gbps		1		1ms
+280		276		1000Gbps		1		1ms
+198		208		1000Gbps		1		1ms
+214		276		1000Gbps		1		2ms
+309		218		1000Gbps		1		2ms
+276		285		1000Gbps		1		1ms
+64		86		1000Gbps		1		1ms
+173		175		1000Gbps		1		1ms
+25		24		1000Gbps		1		1ms
+110		95		1000Gbps		1		1ms
+109		95		1000Gbps		1		1ms
+48		47		1000Gbps		1		1ms
+157		158		1000Gbps		1		1ms
+5		3		1000Gbps		1		1ms
+295		301		1000Gbps		1		40ms
+130		159		1000Gbps		1		5ms
+136		93		1000Gbps		1		5ms
+109		93		1000Gbps		1		1ms
+240		242		1000Gbps		1		1ms
+198		202		1000Gbps		1		1ms
+202		218		1000Gbps		1		2ms
+163		102		1000Gbps		1		13ms
+251		253		1000Gbps		1		1ms
+199		197		1000Gbps		1		1ms
+97		202		1000Gbps		1		12ms
+109		96		1000Gbps		1		1ms
+99		95		1000Gbps		1		1ms
+304		307		1000Gbps		1		1ms
+166		164		1000Gbps		1		1ms
+250		251		1000Gbps		1		1ms
+62		68		1000Gbps		1		1ms
+62		76		1000Gbps		1		1ms
+178		167		1000Gbps		1		1ms
+222		28		1000Gbps		1		2ms
+273		253		1000Gbps		1		2ms
+107		97		1000Gbps		1		1ms
+294		52		1000Gbps		1		9ms
+309		219		1000Gbps		1		2ms
+34		39		1000Gbps		1		1ms
+35		33		1000Gbps		1		1ms
+179		180		1000Gbps		1		1ms
+278		273		1000Gbps		1		1ms
+249		240		1000Gbps		1		1ms
+65		260		1000Gbps		1		15ms
+2		4		1000Gbps		1		1ms
+25		13		1000Gbps		1		1ms
+115		95		1000Gbps		1		1ms
+130		131		1000Gbps		1		1ms
+96		93		1000Gbps		1		1ms
+273		277		1000Gbps		1		1ms
+
