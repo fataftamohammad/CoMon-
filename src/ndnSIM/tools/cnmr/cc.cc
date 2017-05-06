@@ -28,6 +28,7 @@ static GlobalValue g_gamma("gamma",
 
 CC::CC()
 {
+    period_pos = 0;
     // The interval at which the CC prints stats to the evaluation file
     intervalPrint = 2000;
     Simulator::Schedule(Seconds(intervalPrint), &CC::onTimerPrint, this);
@@ -226,22 +227,40 @@ double CC::getSizeReport(CNMRReport &report)
 //////////////////////////////////////////////////
 void CC::setContentsToCache()
 {
-    // printf("here!\n");
+    return;
+    const int w1 = 6, w2 = 3, w3 = 1;
 
     std::vector<std::pair<int,Name> >  contents_freq;
     for (mpIterator it = requestsPerName.begin(); it != requestsPerName.end(); ++it)
         contents_freq.push_back(std::make_pair(it->second,it->first));
-    // printf("here1!\n");
+    std::map<Name,int> curr_namesPositions;
 
+    // printf("%d\n", contents_freq.size());
     std::sort(contents_freq.begin(), contents_freq.end());
     std::reverse(contents_freq.begin(), contents_freq.end());
-    // printf("here2!\n");
+
+    for (uint32_t i = 0; i < contents_freq.size(); ++i)
+        curr_namesPositions[contents_freq[i].second] = cacheSize*monitors.size()*5 - i;
+
+    contents_freq.clear();
+    for(std::map<Name,int>::const_iterator it = curr_namesPositions.begin(); it != curr_namesPositions.end(); ++it)
+    {
+        Name name = it->first;
+        int score = w1*it->second;
+        score += w2*namesPositions[!period_pos][name] + w3*namesPositions[period_pos][name];
+        contents_freq.push_back(std::make_pair(score,name));
+    }
+    std::sort(contents_freq.begin(), contents_freq.end());
+    std::reverse(contents_freq.begin(), contents_freq.end());
+
+    namesPositions[period_pos] = curr_namesPositions;
+    period_pos^=1;
 
     std::set<Name> contentsInMonitors;
     for (uint32_t i = 0; i < cacheSize*monitors.size() && i<contents_freq.size(); ++i)
         contentsInMonitors.insert(contents_freq[i].second);
-    // printf("%d\n", contentsInMonitors.size());
-    // printf("here3!\n");
+
+
     std::map<Name,uint32_t> contents_id;
     std::set<Name>::iterator contents_it = contentsInMonitors.begin();
     for(std::map<uint32_t, Ptr<Node> >::const_iterator it = monitors.begin(); it != monitors.end(); ++it)
@@ -269,6 +288,8 @@ void CC::setContentsToCache()
 
               contents_id[*contents_it] = it->first;
               std::advance(contents_it,1);
+              if(contents_it == contentsInMonitors.end())
+                contents_it = contentsInMonitors.begin();
 
         }
         Ptr<Interest> newInterest2 = Create<Interest> ();

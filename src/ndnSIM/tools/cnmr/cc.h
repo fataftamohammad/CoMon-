@@ -73,6 +73,8 @@ private:
     uint32_t numMessagesReceived;
 
     std::map<Name,uint32_t> requestsPerName;
+    std::map<Name,int> namesPositions[2];//used for aging. 
+    bool period_pos;
 
     static double getSizeReport(CNMRReport &report);
 

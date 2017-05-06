@@ -286,15 +286,15 @@ ContentStoreImpl<Policy>::Lookup (Ptr<const Interest> interest)
     {
       if(attackDetection(interest->GetName()))//UNDER ATTACK!!!
       {
-        printf(" : UNDER ATTACK!!!");
+        // printf(" : UNDER ATTACK!!!");
       }
     }
     else
     {
-    printf("Lookup %s", interest->GetName().toUri().c_str());
+    // printf("Lookup %s", interest->GetName().toUri().c_str());
 
-      printf(" : Adding to S(%lu)", s.size());
-      printf("\n");
+      // printf(" : Adding to S(%lu)", s.size());
+      // printf("\n");
 
     } 
   }
@@ -340,14 +340,14 @@ ContentStoreImpl<Policy>::Add (Ptr<const Data> data)
 
   if(m_defenseType == "CS") //CacheSheild
   {
-    printf("INSERT %s ",data->GetName().toUri().c_str());
+    // printf("INSERT %s ",data->GetName().toUri().c_str());
     if(!toInsert(data->GetName()))
     {
-      std::cout<<" : CacheSheild - NO \n";
+      // std::cout<<" : CacheSheild - NO \n";
       return false;
     }
-    std::cout<<" : CacheSheild - YES ";
-    printf("\n");
+    // std::cout<<" : CacheSheild - YES ";
+    // printf("\n");
 
   }
   Ptr< entry > newEntry = Create< entry > (this, data);
@@ -571,7 +571,7 @@ template<class Policy>
 bool
 ContentStoreImpl<Policy>::attackDetection(Name name)
 {
-  printf("works!!\n");
+  // printf("works!!\n");
   // printf("attackDetection %d!\n",s.size());
 
   bool result = false;
@@ -591,7 +591,7 @@ ContentStoreImpl<Policy>::attackDetection(Name name)
     }
     else //learning phase is done.
     {
-      printf("ATTACKTEST: ");
+      // printf("ATTACKTEST: ");
 
       result = attackTest();
     }
@@ -611,8 +611,8 @@ ContentStoreImpl<Policy>::learningStep()
   ////////////????LOOOOOOOK AT THISSS
   if(analyzed_cos/snap_size > 20)
     return false;
-  printf("LEARNING: analyzed_cos = %d, snap_size = %d, Steps %.3f, sd = %.3f, mx_sd = %.3f, time = %.3f seconds\n",
-      analyzed_cos,snap_size,1.0*analyzed_cos/snap_size,sd,mx_sd, Simulator::Now().GetMinutes());
+  // printf("LEARNING: analyzed_cos = %d, snap_size = %d, Steps %.3f, sd = %.3f, mx_sd = %.3f, time = %.3f seconds\n",
+      // analyzed_cos,snap_size,1.0*analyzed_cos/snap_size,sd,mx_sd, Simulator::Now().GetMinutes());
 
   double delta = 0;
   for (std::map<Name,double>::iterator it = co_freq.begin(); it!= co_freq.end(); it++)
@@ -650,7 +650,7 @@ ContentStoreImpl<Policy>::attackTest()
     delta += it->second*1.0/(snap_size - it->second);
 
   double norm = delta / taw - 1 ;
-  printf("ratio: %f , time: %.3f \n", norm, Simulator::Now().GetMinutes());
+  // printf("ratio: %f , time: %.3f \n", norm, Simulator::Now().GetMinutes());
   if(delta > taw)
     result = true;
 

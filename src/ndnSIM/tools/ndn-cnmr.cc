@@ -450,10 +450,17 @@ int main (int argc, char *argv[])
     cacheSize *= contents;
     cacheSize = ceil(cacheSize);
     
+
     // Install NDN stack on all nodes
     ndn::StackHelper ndnHelper;
     ndnHelper.SetDefaultRoutes (true);
-    ndnHelper.SetForwardingStrategy("ns3::ndn::fw::MonitorAwareRouting");
+    if(defense == "CoMon")
+    {
+        ndnHelper.SetForwardingStrategy("ns3::ndn::fw::MonitorAwareRouting", "Mode", "1", "FTBM", "true", "Detection", "3");
+        defense = "None";
+    }
+    else
+        ndnHelper.SetForwardingStrategy("ns3::ndn::fw::MonitorAwareRouting");
     ndnHelper.SetPit("ns3::ndn::pit::Persistent", "MaxSize", boost::lexical_cast<std::string>(pitSize)); // ns3::ndn::pit::Random ns3::ndn::pit::Lru
     if(cacheSize == 0)
         ndnHelper.SetContentStore("ns3::ndn::cs::Nocache");
@@ -680,7 +687,18 @@ int main (int argc, char *argv[])
     boost::filesystem::create_directory(outputDir);
 
     std::ostringstream tracerFiles;
-    tracerFiles << outputDir << "/" << "Defense=" << "CoMoN" <<"_setSize=" << attackerSetSize << "_run=" << run << "_seed=" << seed;
+    std::string DEF;
+    if(marMode != 0)
+        DEF = "CoMon";
+    else
+        DEF = defense;
+    tracerFiles << outputDir << "/" << "Defense=" << DEF <<"_setSize=" << attackerSetSize << "_run=" << run << "_seed=" << seed;
+
+    if(file_exists(tracerFiles.str()+"-Cache"))
+    {
+        std::cout<<"EXPERIMENT ALREADY DONE!"<<std::endl;
+        return 0;
+    }
 
     ndn::CsTracer::InstallAll(tracerFiles.str()+"-Cache", attStart, attFinish);
     // ndn::PitTracer::Install(allRouters, tracerFiles.str() + "-PIT", Seconds(20000.0));

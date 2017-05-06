@@ -251,7 +251,7 @@ CsTracer::SetTimes (const Time &periodS, const Time &periodF)
   m_startTime = periodS;
   m_finishTime = periodF;
   m_printEvent.Cancel ();
-  m_printEvent = Simulator::Schedule (Seconds(2000.0), &CsTracer::PeriodicPrinter, this);
+  m_printEvent = Simulator::Schedule (Seconds(20000.0), &CsTracer::PeriodicPrinter, this);
 }
 
 void
@@ -259,7 +259,7 @@ CsTracer::PeriodicPrinter ()
 {
   Print (*m_os);
   Reset();
-  m_printEvent = Simulator::Schedule (Seconds(2000.0), &CsTracer::PeriodicPrinter, this);
+  m_printEvent = Simulator::Schedule (Seconds(20000.0), &CsTracer::PeriodicPrinter, this);
 
 }
 
@@ -312,12 +312,13 @@ CsTracer::Print (std::ostream &os) const
     int x = m_stats.m_cacheHits * 1.0 / (m_stats.m_cacheHits + m_stats.m_cacheMisses) * 10000;
     PRINTER_D ("RR", m_stats.m_cacheHits + m_stats.m_cacheMisses);
     PRINTER_R ("HR", x/100, x%100);
-    PRINTER_D ("Name", "#ofRequests");
     
-    for(std::map<Name,long long>::const_iterator it = m_stats.pattern.begin(); it != m_stats.pattern.end(); it++)
-    {
-      PRINTER_D(it->first, it->second)
-    }
+    // PRINTER_D ("Name", "#ofRequests");
+    
+    // for(std::map<Name,long long>::const_iterator it = m_stats.pattern.begin(); it != m_stats.pattern.end(); it++)
+    // {
+    //   PRINTER_D(it->first, it->second)
+    // }
 
   }
 }
@@ -328,7 +329,7 @@ CsTracer::CacheHits (Ptr<const Interest> interest, Ptr<const Data>)
   if(Time("2s") == interest->GetInterestLifetime())
     m_stats.m_cacheHits ++;
 
-  (m_stats.pattern)[interest->GetName()]++;
+  // (m_stats.pattern)[interest->GetName()]++;
 
 }
 
@@ -338,7 +339,7 @@ CsTracer::CacheMisses (Ptr<const Interest> interest)
   if(Time("2s") == interest->GetInterestLifetime())
     m_stats.m_cacheMisses ++;
   
-    (m_stats.pattern)[interest->GetName()]++;
+    // (m_stats.pattern)[interest->GetName()]++;
 }
 
 
